@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres:16-alphabet  # Используем актуальную версию
+    image: postgres:16-alpine
     container_name: fastapi_db
     restart: always
     environment:
